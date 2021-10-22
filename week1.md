@@ -10,19 +10,19 @@
 
    📌SignInActivity
 
-   <img src="C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211010225904199.png" alt="image-20211010225904199" style="zoom: 50%;" /><img src="C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211010230004828.png" alt="image-20211010230004828" style="zoom: 50%;" /><img src="C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211010230131542.png" alt="image-20211010230131542" style="zoom:50%;" />
+   ![image](https://user-images.githubusercontent.com/63237214/138415467-25aee1b9-8fce-493e-96d0-fec94f8ee57e.png)
 
    
 
    📌SignUpActivity
 
-   <img src="C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211010230225343.png" alt="image-20211010230225343" style="zoom:50%;" /><img src="C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211010230310250.png" alt="image-20211010230310250" style="zoom:50%;" />
+   ![image](https://user-images.githubusercontent.com/63237214/138415601-a24f4fad-99f2-4b53-be1e-f472a1f23278.png)
 
    
 
    📌HomeActivity
 
-   <img src="C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211010230147205.png" alt="image-20211010230147205" style="zoom:50%;" align="left" />
+   ![image](https://user-images.githubusercontent.com/63237214/138415679-e6306b30-d250-4c16-b690-de9ec6feceac.png)
 
    ------
 
@@ -30,7 +30,7 @@
 
 2. ### 구현한 로직
 
-   📌activity_signin.xml
+   📌 activity_signin.xml
 
    ```kotlin
    //hint 속성으로 미리보기
@@ -43,7 +43,7 @@
 
    
 
-   📌SignInActivity.kt
+   📌 SignInActivity.kt
 
    - 로그인
 
@@ -74,7 +74,7 @@
 
    
 
-   📌activity_signup.xml
+   📌 activity_signup.xml
 
    ```kotlin
    //hint 속성으로 미리보기
@@ -88,7 +88,7 @@
 
    
 
-   📌SignUpActivity
+   📌 SignUpActivity
 
    - 회원가입 완료
 
@@ -109,7 +109,7 @@
 
    
 
-   📌home.xml
+   📌 home.xml
 
    ```kotlin
    <ImageView
@@ -131,7 +131,7 @@
 
    > 🔥 다시는 AndroidManifest.xml 파일을 무시하지 말자. 🔥
 
-1. 파일명 변경
+   📌 파일명 변경
 
    코드를 다 짰는데 아무리 애뮬레이터를 돌려도 앱 실행이 안 돼서 구글링을 몇 시간동안 했다. ~~앱 실행 하나때문에..~~
 
@@ -153,7 +153,7 @@
 
    
 
-2. Activity 추가
+   📌 Activity 추가
 
    앱 실행이 됐는데 화면 전환이 되어야 할 순간에 갑자기 앱이 종료됐다. 이번에도..? 하는 마음으로 다시 AndroidManifest.xml을 열게 되었는데
 
@@ -165,6 +165,7 @@
    ```
 
    환장 22. 파일 추가할 때 다시는 잊지 않을 듯. ^^
+
 
 
 
