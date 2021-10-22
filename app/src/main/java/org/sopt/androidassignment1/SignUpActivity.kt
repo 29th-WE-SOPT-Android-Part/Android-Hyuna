@@ -11,10 +11,13 @@ class SignUpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivitySignupBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+        clickFinishSignIn()
+    }
 
+    private fun clickFinishSignIn(){
         var id = binding.idInputSignup.text
         var pw = binding.pwInputSignup.text
         var name = binding.nameInputSignup.text
@@ -27,6 +30,5 @@ class SignUpActivity : AppCompatActivity() {
             }
 
         }
-        setContentView(binding.root)
     }
 }
