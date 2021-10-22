@@ -11,30 +11,32 @@ class SignInActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivitySigninBinding.inflate(layoutInflater)
-
         setContentView(binding.root)
 
-        var id = binding.idInput.text
-        var pw = binding.pwInput.text
+        clickLogIn()
+        clickSignIn()
+    }
+
+    private fun clickLogIn(){
+        val id = binding.idInput.text
+        val pw = binding.pwInput.text
 
         binding.btnLogin.setOnClickListener {
             if (id.isNotEmpty() && pw.isNotEmpty()) {
-                val intent = Intent(this, HomeActivity::class.java)
-                startActivity(intent)
-            } else if (id.isEmpty() || pw.isEmpty()) {
+                val homeIntent = Intent(this, HomeActivity::class.java)
+                startActivity(homeIntent)
+            } else {
                 Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
             }
-
         }
+    }
 
+    private fun clickSignIn(){
         binding.btnSignin.setOnClickListener {
-            val intent2 = Intent(this, SignUpActivity::class.java)
-            startActivity(intent2)
+            val signUpIntent = Intent(this, SignUpActivity::class.java)
+            startActivity(signUpIntent)
         }
-
-        setContentView(binding.root)
     }
 }
 
