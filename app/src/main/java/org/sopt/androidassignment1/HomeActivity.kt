@@ -9,9 +9,29 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityHomeBinding.inflate(layoutInflater)
-
+        initTransactionEvent()
         setContentView(binding.root)
+    }
+
+    private fun initTransactionEvent(){
+        val followerFragment = FollowerFragment()
+        val repositoryFragment = RepositoryFragment()
+
+        supportFragmentManager.beginTransaction().add(R.id.container_recycle,followerFragment).commit()
+
+        binding.btnFollower.setOnClickListener {
+            var position = supportFragmentManager.beginTransaction()
+            position.replace(R.id.container_recycle, followerFragment)
+            position.commit()
+        }
+
+        binding.btnRepository.setOnClickListener {
+            var position = supportFragmentManager.beginTransaction()
+            position.replace(R.id.container_recycle,repositoryFragment)
+            position.commit()
+        }
+
+
     }
 }
