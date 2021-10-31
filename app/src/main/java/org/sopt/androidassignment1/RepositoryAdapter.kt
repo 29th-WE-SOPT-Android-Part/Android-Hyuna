@@ -21,8 +21,8 @@ class RepositoryAdapter : RecyclerView.Adapter<RepositoryAdapter.RepositoryViewH
 
     class RepositoryViewHolder(private val binding: ItemRepositorylistBinding) : RecyclerView.ViewHolder(binding.root){
         fun onBind(data:RepositoryData) {
-            binding.title.text = data.title
-            binding.content.text = data.content
+            binding.name.text = data.title
+            binding.introduction.text = data.content
         }
     }
 }
