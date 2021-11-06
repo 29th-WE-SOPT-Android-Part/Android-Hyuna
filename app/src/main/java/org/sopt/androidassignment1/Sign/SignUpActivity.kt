@@ -1,6 +1,5 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.Sign
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast

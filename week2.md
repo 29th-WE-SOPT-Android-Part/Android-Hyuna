@@ -8,7 +8,7 @@
 
 1. ### 실행화면
 
-   📌Follower Recycler View
+   📌org.sopt.androidassignment1.Follower Recycler View
 
    ![image](https://user-images.githubusercontent.com/63237214/138472122-aaa84057-aeea-46c2-bc28-07dbe7c59488.png)![image](https://user-images.githubusercontent.com/63237214/138472315-de19f068-9a72-4ee9-a365-09b63caf2301.png)
 
@@ -40,7 +40,7 @@
     //처음 보여지는 프레그먼트는 follower list가 있는 프레그먼트
     supportFragmentManager.beginTransaction().add(R.id.container_recycle,followerFragment).commit()
    
-       //Follower 버튼 클릭시 follower list가 있는 프레그먼트로
+       //org.sopt.androidassignment1.Follower 버튼 클릭시 follower list가 있는 프레그먼트로
            binding.btnFollower.setOnClickListener {
                var position = supportFragmentManager.beginTransaction()
                position.replace(R.id.container_recycle, followerFragment)
@@ -131,7 +131,7 @@
 
    📌 Data 파일 연결
 
-   처음에는 Follower Data, RepositoryData 파일을 따로 만들지 않고 ~~귀찮아서~~ 그냥 UserData파일 하나로 갖다 썼는데 각 Fragment 파일의 listof 부분에서 계속 오류가 났다. 처음에는 원인조차 모르다가 data파일이랑 연결되어 있으니까 혹시 모르니 한번 각각 파일로 나눠줘볼까 했는데 역시나 그 부분을 고치니까 정상적으로 작동했다 ^____^;
+   처음에는 org.sopt.androidassignment1.Follower Data, RepositoryData 파일을 따로 만들지 않고 ~~귀찮아서~~ 그냥 UserData파일 하나로 갖다 썼는데 각 Fragment 파일의 listof 부분에서 계속 오류가 났다. 처음에는 원인조차 모르다가 data파일이랑 연결되어 있으니까 혹시 모르니 한번 각각 파일로 나눠줘볼까 했는데 역시나 그 부분을 고치니까 정상적으로 작동했다 ^____^;
 
    다음부터는 시간낭비하지 말고 혹시나 싶은 건 다 건드려보자,,
 

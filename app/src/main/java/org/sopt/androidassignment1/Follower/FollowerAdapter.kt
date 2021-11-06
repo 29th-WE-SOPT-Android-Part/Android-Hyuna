@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.Follower
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -20,7 +20,7 @@ class FollowerAdapter : RecyclerView.Adapter<FollowerAdapter.FollowerViewHolder>
     override fun getItemCount(): Int = followerList.size
 
     class FollowerViewHolder(private val binding: ItemFollowerlistBinding) : RecyclerView.ViewHolder(binding.root){
-        fun onBind(data:FollowerData) {
+        fun onBind(data: FollowerData) {
             binding.name.text = data.name
             binding.introduction.text = data.introduction
         }
