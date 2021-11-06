@@ -3,6 +3,10 @@ package org.sopt.androidassignment1
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
+import org.sopt.androidassignment1.BaseFragment.CameraFragment
+import org.sopt.androidassignment1.BaseFragment.HomeFragment
+import org.sopt.androidassignment1.BaseFragment.ProfileFragment
+import org.sopt.androidassignment1.ViewPager.ViewPagerAdapter
 import org.sopt.androidassignment1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

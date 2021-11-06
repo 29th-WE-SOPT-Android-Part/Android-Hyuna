@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.Follower
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

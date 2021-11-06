@@ -3,48 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1638888888888889" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/bg_pink.xml" value="0.19114583333333332" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/edge_line.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable-mdpi/selector_btn_text.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable-v24/selector_btn.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable-v24/selector_input.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable-v24/selector_menu.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/edge_pink.xml" value="0.19114583333333332" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/edge_round.xml" value="0.1638888888888889" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/fill_gray.xml" value="0.10648148148148148" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/fill_gray.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/fill_gray2.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/fill_orange.xml" value="0.19114583333333332" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1638888888888889" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/img_github.xml" value="0.12" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/ic_camera.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/ic_home.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19114583333333332" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/ic_profile.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/selector_btn.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/selector_input.xml" value="0.19114583333333332" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/selector_text.xml" value="0.10648148148148148" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_home.xml" value="0.22" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_login.xml" value="0.16666666666666666" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_signin.xml" value="0.4466666666666667" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_signup.xml" value="0.16666666666666666" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_follower.xml" value="0.3333333333333333" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_following.xml" value="0.10869565217391304" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_repository.xml" value="0.3333333333333333" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_main.xml" value="0.14855072463768115" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_signin.xml" value="0.14855072463768115" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_signup.xml" value="0.11684782608695653" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_camera.xml" value="0.175" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_follower.xml" value="0.1" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_home.xml" value="0.11458333333333333" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_profile.xml" value="0.11458333333333333" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_repository.xml" value="0.1" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_view_pager_follower.xml" value="0.175" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_view_pager_following.xml" value="0.16041666666666668" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_view_pager_followingFragment.xml" value="0.175" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_view_pager_followingragment.xml" value="0.175" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/item_followerlist.xml" value="0.14666666666666667" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/item_repositorylist.xml" value="0.16666666666666666" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/menu/menu.xml" value="0.14351851851851852" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/week1/app/src/main/res/drawable/edge_pick.xml" value="0.1953125" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/week1/app/src/main/res/layout/activity_home.xml" value="0.17916666666666667" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/week1/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/week1/app/src/main/res/layout/activity_signin.xml" value="0.16666666666666666" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/week1/app/src/main/res/layout/activity_signun.xml" value="0.17916666666666667" />
-        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/week1/app/src/main/res/layout/activity_signup.xml" value="0.13333333333333333" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_view_pager_following.xml" value="0.175" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/menu/menu.xml" value="0.175" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
 </project>

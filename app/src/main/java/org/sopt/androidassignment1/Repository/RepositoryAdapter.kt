@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.Repository
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -20,7 +20,7 @@ class RepositoryAdapter : RecyclerView.Adapter<RepositoryAdapter.RepositoryViewH
     override fun getItemCount(): Int = repositoryList.size
 
     class RepositoryViewHolder(private val binding: ItemRepositorylistBinding) : RecyclerView.ViewHolder(binding.root){
-        fun onBind(data:RepositoryData) {
+        fun onBind(data: RepositoryData) {
             binding.name.text = data.title
             binding.introduction.text = data.content
         }

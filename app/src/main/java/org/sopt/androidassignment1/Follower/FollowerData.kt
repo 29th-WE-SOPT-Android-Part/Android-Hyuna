@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.Follower
 
 data class FollowerData(
     val name : String,

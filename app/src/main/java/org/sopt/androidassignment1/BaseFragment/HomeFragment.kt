@@ -1,16 +1,18 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.BaseFragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentActivity
 import com.google.android.material.tabs.TabLayoutMediator
+import org.sopt.androidassignment1.ViewPager.TabViewPagerAdapter
+import org.sopt.androidassignment1.ViewPager.ViewPagerFollowerFragment
+import org.sopt.androidassignment1.ViewPager.ViewPagerFollowingFragment
 import org.sopt.androidassignment1.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
-    private lateinit var TabViewPagerAdapter : TabViewPagerAdapter
+    private lateinit var tabViewPagerAdapter : TabViewPagerAdapter
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
@@ -34,10 +36,10 @@ class HomeFragment : Fragment() {
     private fun initAdapter(){
         val fragmentList = listOf(ViewPagerFollowingFragment(), ViewPagerFollowerFragment())
 
-        TabViewPagerAdapter = TabViewPagerAdapter(this)
-        TabViewPagerAdapter.fragments.addAll(fragmentList)
+        tabViewPagerAdapter = TabViewPagerAdapter(this)
+        tabViewPagerAdapter.fragments.addAll(fragmentList)
 
-        binding.vpFollow.adapter = TabViewPagerAdapter
+        binding.vpFollow.adapter = tabViewPagerAdapter
     }
 
     private fun initTabLayout(){

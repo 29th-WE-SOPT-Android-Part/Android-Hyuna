@@ -1,20 +1,18 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.Sign
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import org.sopt.androidassignment1.databinding.ActivityLoginBinding
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
+import org.sopt.androidassignment1.MainActivity
+import org.sopt.androidassignment1.databinding.ActivitySigninBinding
 
-class LogInActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityLoginBinding
+class SignInActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySigninBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
+        binding = ActivitySigninBinding.inflate(layoutInflater)
 
         binding.btnLogin.setOnClickListener{
             //initNetwork()

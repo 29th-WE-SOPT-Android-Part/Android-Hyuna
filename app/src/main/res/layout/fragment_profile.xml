@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogInActivity">
+    tools:context=".Sign.SignInActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -65,7 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_follower"
         android:background="@drawable/selector_btn"
         android:layout_width="180dp"
@@ -73,12 +73,13 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:text="팔로워 목록"
+        android:textColor="@drawable/selector_btn_text"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_repository"
         android:background="@drawable/selector_btn"
         android:layout_width="180dp"
@@ -87,6 +88,7 @@
         android:text="레포지토리 목록"
         android:textSize="17sp"
         android:textStyle="bold"
+        android:textColor="@drawable/selector_btn_text"
         app:layout_constraintBottom_toBottomOf="@+id/btn_follower"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btn_follower"
