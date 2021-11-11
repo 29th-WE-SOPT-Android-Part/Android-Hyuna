@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="준비중입니다"
+        android:text="@string/announcement_ready"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black"
