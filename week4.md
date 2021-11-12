@@ -18,7 +18,7 @@
 
 📌 로그인
 
-![image](https://user-images.githubusercontent.com/63237214/141430068-77c8b65b-c97b-4567-a9e0-aeb9e45b83f3.png)![image-20211112165009116](C:\Users\HYUNA\AppData\Roaming\Typora\typora-user-images\image-20211112165009116.png)
+![image](https://user-images.githubusercontent.com/63237214/141430068-77c8b65b-c97b-4567-a9e0-aeb9e45b83f3.png)![image](https://user-images.githubusercontent.com/63237214/141436221-58df2d03-9476-4866-8db7-00cb5bdf7544.png)
 
 </br>
 
