@@ -3,6 +3,7 @@ package org.sopt.androidassignment1.signActivities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import org.sopt.androidassignment1.MainActivity
 import org.sopt.androidassignment1.signIn.RequestSigninData
@@ -53,7 +54,7 @@ class SignInActivity : AppCompatActivity() {
             password = binding.pwInput.text.toString()
         )
 
-        val call: Call<ResponseSigninData> = ServiceCreator.signinService.postLogin(requestSigninData)
+        val call: Call<ResponseSigninData> = ServiceCreator.SAMPLE_SERVICE.postLogin(requestSigninData)
 
         call.enqueue(object : Callback<ResponseSigninData> {
             override fun onResponse(
@@ -70,7 +71,7 @@ class SignInActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<ResponseSigninData>, t: Throwable) {
-
+                Log.e("NetworkTest", "error:$t")
             }
         })
     }
