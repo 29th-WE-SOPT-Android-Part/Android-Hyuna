@@ -1,5 +1,7 @@
 package org.sopt.androidassignment1
 
+import org.sopt.androidassignment1.signIn.SigninService
+import org.sopt.androidassignment1.signup.SignupService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -12,5 +14,7 @@ object ServiceCreator {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    val sampleService: SampleService = retrofit.create(SampleService::class.java)
+    val signinService: SigninService = retrofit.create(SigninService::class.java)
+    val signupService: SignupService = retrofit.create(SignupService::class.java)
+
 }

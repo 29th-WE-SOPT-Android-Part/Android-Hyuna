@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.Repository
+package org.sopt.androidassignment1.repository
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

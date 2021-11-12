@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.Follower
+package org.sopt.androidassignment1.follower
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

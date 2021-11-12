@@ -1,11 +1,17 @@
-package org.sopt.androidassignment1.Sign
+package org.sopt.androidassignment1.signActivities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import org.sopt.androidassignment1.MainActivity
+import org.sopt.androidassignment1.signIn.RequestSigninData
+import org.sopt.androidassignment1.signIn.ResponseSigninData
+import org.sopt.androidassignment1.ServiceCreator
 import org.sopt.androidassignment1.databinding.ActivitySigninBinding
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class SignInActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySigninBinding
@@ -13,10 +19,6 @@ class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySigninBinding.inflate(layoutInflater)
-
-        binding.btnLogin.setOnClickListener{
-            //initNetwork()
-        }
 
         setContentView(binding.root)
 
@@ -30,10 +32,9 @@ class SignInActivity : AppCompatActivity() {
 
         binding.btnLogin.setOnClickListener {
             if (id.isNotEmpty() && pw.isNotEmpty()) {
-                val homeIntent = Intent(this, MainActivity::class.java)
-                startActivity(homeIntent)
+                initNetwork()
             } else {
-                Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "입력되지 않은 정보가 있습니다", Toast.LENGTH_SHORT).show()
             }
         }
     }
@@ -44,35 +45,34 @@ class SignInActivity : AppCompatActivity() {
             startActivity(signUpIntent)
         }
     }
-/*
+
+
     private fun initNetwork() {
-        val requestLoginData = RequestLoginData(
-            email = binding.id.text.toString(), //여기랑 아래 pw binding 뒤에 id랑 pw 맞는지 확인해보기
-            password = binding.pw.text.toString()
+        val requestSigninData = RequestSigninData(
+            email = binding.idInput.text.toString(),
+            password = binding.pwInput.text.toString()
         )
 
-        val call: Call<ResponseLoginData> = ServiceCreator.sampleService.postLogin(requestLoginData)
+        val call: Call<ResponseSigninData> = ServiceCreator.signinService.postLogin(requestSigninData)
 
-        call.enqueue(object : Callback<ResponseLoginData>{
+        call.enqueue(object : Callback<ResponseSigninData> {
             override fun onResponse(
-                call: Call<ResponseLoginData>,
-                response: Response<ResponseLoginData>
+                call: Call<ResponseSigninData>,
+                response: Response<ResponseSigninData>
             ) {
                 if(response.isSuccessful) {
-                    Toast.makeText(this@LogInActivity,"${response.body()?.data?.name}님 반갑습니다",Toast.LENGTH_SHORT)
-                    startActivity(Intent(this@LogInActivity, MainActivity::class.java))
+                    Toast.makeText(this@SignInActivity,"${response.body()?.data?.name}님 반갑습니다",Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this@SignInActivity, MainActivity::class.java))
                 }
                 else {
-
+                    Toast.makeText(this@SignInActivity, "로그인 실패", Toast.LENGTH_SHORT).show()
                 }
             }
 
-            override fun onFailure(call: Call<ResponseLoginData>, t: Throwable) {
+            override fun onFailure(call: Call<ResponseSigninData>, t: Throwable) {
 
             }
         })
     }
-
- */
 }
 

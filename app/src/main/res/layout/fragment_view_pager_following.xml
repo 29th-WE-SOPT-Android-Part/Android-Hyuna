@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewPager.ViewPagerFollowerFragment"
+    tools:context=".viewPager.ViewPagerFollowerFragment"
     android:background="@drawable/fill_gray2">
 
     <!-- TODO: Update blank fragment layout -->
