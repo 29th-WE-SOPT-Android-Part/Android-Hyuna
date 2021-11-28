@@ -1,6 +1,6 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.signIn
 
-data class ResponseLoginData(
+data class ResponseSigninData(
     val status : Int,
     val success : Boolean,
     val message : String,

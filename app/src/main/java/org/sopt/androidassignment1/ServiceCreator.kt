@@ -12,5 +12,5 @@ object ServiceCreator {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    val sampleService: SampleService = retrofit.create(SampleService::class.java)
+    val SAMPLE_SERVICE: SampleService = retrofit.create(SampleService::class.java)
 }

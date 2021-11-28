@@ -1,10 +1,10 @@
-package org.sopt.androidassignment1.ViewPager
+package org.sopt.androidassignment1.viewPager
 
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.sopt.androidassignment1.BaseFragment.HomeFragment
 
-class TabViewPagerAdapter(fragmentActivity: HomeFragment) : FragmentStateAdapter(fragmentActivity) {
+class ViewPagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
     val fragments = mutableListOf<Fragment>()
 
     override fun getItemCount(): Int = fragments.size
