@@ -1,9 +1,10 @@
-package org.sopt.androidassignment1.follower
+package org.sopt.androidassignment1.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import org.sopt.androidassignment1.databinding.ItemFollowerlistBinding
+import org.sopt.androidassignment1.data.local.FollowerData
 
 class FollowerAdapter : RecyclerView.Adapter<FollowerAdapter.FollowerViewHolder>(){
     val followerList = mutableListOf<FollowerData>()

@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.repository
+package org.sopt.androidassignment1.ui.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import org.sopt.androidassignment1.databinding.FragmentRepositoryBinding
+import org.sopt.androidassignment1.ui.adapter.RepositoryAdapter
+import org.sopt.androidassignment1.data.local.RepositoryData
 
 class RepositoryFragment : Fragment() {
     private var _binding : FragmentRepositoryBinding? = null
@@ -32,7 +34,7 @@ class RepositoryFragment : Fragment() {
                 RepositoryData("웹 과제 레포지토리", "웹 파트 과제"),
                 RepositoryData("디자인 과제 레포지토리", "디자인 파트 과제"),
                 RepositoryData("기획 과제 레포지토리", "기획 파트 과제"),
-                )
+            )
         )
         repositoryAdapter.notifyDataSetChanged()
     }

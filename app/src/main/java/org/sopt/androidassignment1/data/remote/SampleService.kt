@@ -1,9 +1,9 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.data.remote
 
-import org.sopt.androidassignment1.signIn.RequestSigninData
-import org.sopt.androidassignment1.signIn.ResponseSigninData
-import org.sopt.androidassignment1.signup.RequestSignupData
-import org.sopt.androidassignment1.signup.ResponseSignupData
+import org.sopt.androidassignment1.data.remote.RequestSigninData
+import org.sopt.androidassignment1.data.remote.ResponseSigninData
+import org.sopt.androidassignment1.data.remote.RequestSignupData
+import org.sopt.androidassignment1.data.remote.ResponseSignupData
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.Headers

@@ -1,9 +1,10 @@
-package org.sopt.androidassignment1.repository
+package org.sopt.androidassignment1.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import org.sopt.androidassignment1.databinding.ItemRepositorylistBinding
+import org.sopt.androidassignment1.data.local.RepositoryData
 
 class RepositoryAdapter : RecyclerView.Adapter<RepositoryAdapter.RepositoryViewHolder>(){
     val repositoryList = mutableListOf<RepositoryData>()

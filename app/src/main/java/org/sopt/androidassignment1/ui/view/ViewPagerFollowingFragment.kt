@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.viewPager
+package org.sopt.androidassignment1.ui.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.signIn
+package org.sopt.androidassignment1.data.remote
 
 import com.google.gson.annotations.SerializedName
 

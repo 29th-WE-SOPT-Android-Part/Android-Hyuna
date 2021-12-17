@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.baseFragment
+package org.sopt.androidassignment1.ui.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.tabs.TabLayoutMediator
-import org.sopt.androidassignment1.viewPager.TabViewPagerAdapter
-import org.sopt.androidassignment1.viewPager.ViewPagerFollowerFragment
-import org.sopt.androidassignment1.viewPager.ViewPagerFollowingFragment
+import org.sopt.androidassignment1.ui.adapter.TabViewPagerAdapter
+import org.sopt.androidassignment1.ui.view.ViewPagerFollowerFragment
+import org.sopt.androidassignment1.ui.view.ViewPagerFollowingFragment
 import org.sopt.androidassignment1.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {

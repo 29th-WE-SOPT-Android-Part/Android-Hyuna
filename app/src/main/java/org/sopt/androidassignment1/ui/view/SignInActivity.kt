@@ -1,14 +1,15 @@
-package org.sopt.androidassignment1.signActivities
+package org.sopt.androidassignment1.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import org.sopt.androidassignment1.MainActivity
-import org.sopt.androidassignment1.signIn.RequestSigninData
-import org.sopt.androidassignment1.signIn.ResponseSigninData
-import org.sopt.androidassignment1.ServiceCreator
+import org.sopt.androidassignment1.ui.view.MainActivity
+import org.sopt.androidassignment1.util.SOPTSharedPreferences
+import org.sopt.androidassignment1.data.remote.RequestSigninData
+import org.sopt.androidassignment1.data.remote.ResponseSigninData
+import org.sopt.androidassignment1.data.remote.ServiceCreator
 import org.sopt.androidassignment1.databinding.ActivitySigninBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -40,13 +41,20 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
-    private fun clickSignUp(){
+    private fun clickSignUp() {
         binding.btnSignup.setOnClickListener {
             val signUpIntent = Intent(this, SignUpActivity::class.java)
             startActivity(signUpIntent)
         }
     }
 
+    private fun initClickEvent() {
+
+    }
+
+    private fun isAutoLogin() {
+
+    }
 
     private fun initNetwork() {
         val requestSigninData = RequestSigninData(
@@ -62,7 +70,6 @@ class SignInActivity : AppCompatActivity() {
                 response: Response<ResponseSigninData>
             ) {
                 if(response.isSuccessful) {
-                    Toast.makeText(this@SignInActivity,"${response.body()?.data?.name}님 반갑습니다",Toast.LENGTH_SHORT).show()
                     startActivity(Intent(this@SignInActivity, MainActivity::class.java))
                 }
                 else {

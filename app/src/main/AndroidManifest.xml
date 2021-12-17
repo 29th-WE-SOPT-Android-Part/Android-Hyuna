@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignment1">
         <activity
-            android:name=".signActivities.SignInActivity"
+            android:name=".ui.view.SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,9 +22,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".signActivities.SignUpActivity"/>
+        <activity android:name=".ui.view.SignUpActivity"/>
 
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".ui.view.MainActivity"/>
 
     </application>
 

@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.signup
+package org.sopt.androidassignment1.data.remote
 
 data class ResponseSignupData(
     val status : Int,

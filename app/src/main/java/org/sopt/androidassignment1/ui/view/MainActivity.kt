@@ -1,12 +1,13 @@
-package org.sopt.androidassignment1
+package org.sopt.androidassignment1.ui.view
 
 import android.os.Bundle
+import org.sopt.androidassignment1.R
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
-import org.sopt.androidassignment1.baseFragment.CameraFragment
-import org.sopt.androidassignment1.baseFragment.HomeFragment
-import org.sopt.androidassignment1.baseFragment.ProfileFragment
-import org.sopt.androidassignment1.viewPager.ViewPagerAdapter
+import org.sopt.androidassignment1.ui.view.CameraFragment
+import org.sopt.androidassignment1.ui.view.HomeFragment
+import org.sopt.androidassignment1.ui.view.ProfileFragment
+import org.sopt.androidassignment1.ui.adapter.ViewPagerAdapter
 import org.sopt.androidassignment1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

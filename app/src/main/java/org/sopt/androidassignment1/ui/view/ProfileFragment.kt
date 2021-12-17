@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.baseFragment
+package org.sopt.androidassignment1.ui.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
-import org.sopt.androidassignment1.follower.FollowerFragment
+import org.sopt.androidassignment1.ui.view.FollowerFragment
 import org.sopt.androidassignment1.R
-import org.sopt.androidassignment1.repository.RepositoryFragment
+import org.sopt.androidassignment1.ui.view.RepositoryFragment
 import org.sopt.androidassignment1.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {

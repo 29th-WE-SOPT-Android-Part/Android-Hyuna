@@ -1,4 +1,4 @@
-package org.sopt.androidassignment1.follower
+package org.sopt.androidassignment1.ui.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import org.sopt.androidassignment1.databinding.FragmentFollowerBinding
+import org.sopt.androidassignment1.ui.adapter.FollowerAdapter
+import org.sopt.androidassignment1.data.local.FollowerData
+
 
 class FollowerFragment : Fragment() {
     private var _binding : FragmentFollowerBinding? = null

@@ -1,14 +1,14 @@
-package org.sopt.androidassignment1.signActivities
+package org.sopt.androidassignment1.ui.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import org.sopt.androidassignment1.ServiceCreator
+import org.sopt.androidassignment1.data.remote.ServiceCreator
 import org.sopt.androidassignment1.databinding.ActivitySignupBinding
-import org.sopt.androidassignment1.signup.RequestSignupData
-import org.sopt.androidassignment1.signup.ResponseSignupData
+import org.sopt.androidassignment1.data.remote.RequestSignupData
+import org.sopt.androidassignment1.data.remote.ResponseSignupData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
