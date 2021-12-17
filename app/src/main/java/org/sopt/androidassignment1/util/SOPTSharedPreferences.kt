@@ -19,4 +19,20 @@ object SOPTSharedPreferences {
             .putBoolean(AUTO_LOGIN, auto)
             .apply()
     }
+
+    fun removeAutoLogin(context: Context, auto: Boolean) {
+        val preferences = context.getSharedPreferences(USER_AUTH, Context.MODE_PRIVATE)
+
+        preferences.edit()
+            .remove(AUTO_LOGIN)
+            .apply()
+    }
+
+    fun clearAutoLogin(context: Context, auto: Boolean) {
+        val preferences = context.getSharedPreferences(USER_AUTH, Context.MODE_PRIVATE)
+
+        preferences.edit()
+            .clear()
+            .apply()
+    }
 }

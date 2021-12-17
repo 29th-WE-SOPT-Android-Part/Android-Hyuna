@@ -5,13 +5,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import org.sopt.androidassignment1.ui.view.MainActivity
-import org.sopt.androidassignment1.util.SOPTSharedPreferences
 import org.sopt.androidassignment1.util.ViewExt.shortToast
 import org.sopt.androidassignment1.data.remote.RequestSigninData
 import org.sopt.androidassignment1.data.remote.ResponseSigninData
 import org.sopt.androidassignment1.data.remote.ServiceCreator
 import org.sopt.androidassignment1.databinding.ActivitySigninBinding
+import org.sopt.androidassignment1.util.SOPTSharedPreferences
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -27,6 +26,24 @@ class SignInActivity : AppCompatActivity() {
 
         clickLogIn()
         clickSignUp()
+        initClickEvent()
+        isAutoLogin()
+    }
+
+    private fun initClickEvent(){
+        binding.btnAutoLogin.setOnClickListener{
+            binding.btnAutoLogin.isSelected = !binding.btnAutoLogin.isSelected
+
+            SOPTSharedPreferences.setAutoLogin(this, binding.btnAutoLogin.isSelected)
+        }
+    }
+
+    private fun isAutoLogin(){
+        if(SOPTSharedPreferences.getAutoLogin(this)) {
+            shortToast("자동로그인 완료")
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
     }
 
     private fun clickLogIn(){

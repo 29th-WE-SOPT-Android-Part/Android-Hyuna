@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidAssignment1"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ui.view.SettingActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.view.SignInActivity"
             android:exported="false" />
         <activity
