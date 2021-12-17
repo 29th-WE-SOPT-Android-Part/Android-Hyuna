@@ -8,8 +8,6 @@
 
 ### 구현 로직
 
-<img width="60%" alt="image" src="https://user-images.githubusercontent.com/63237214/146556948-736f63b4-9a15-4819-888b-ddf59c886bf5.png">
-
 📌 onboardingFragment1.kt
 
 ```kotlin
