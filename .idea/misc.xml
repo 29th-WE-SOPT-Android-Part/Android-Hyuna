@@ -19,11 +19,15 @@
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/selector_btn.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/drawable/selector_input.xml" value="0.19114583333333332" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_main.xml" value="0.14855072463768115" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_onboarding.xml" value="0.14666666666666667" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_signin.xml" value="0.14855072463768115" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_camera.xml" value="0.175" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_follower.xml" value="0.1" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_home.xml" value="0.11458333333333333" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_onboarding1.xml" value="0.16041666666666668" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_onboarding2.xml" value="0.175" />
+        <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_onboarding3.xml" value="0.175" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_profile.xml" value="0.11458333333333333" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_repository.xml" value="0.1" />
         <entry key="..\:/HYUNA/Club/2021 SOPT/assignment/Android-Hyuna/app/src/main/res/layout/fragment_view_pager_follower.xml" value="0.175" />

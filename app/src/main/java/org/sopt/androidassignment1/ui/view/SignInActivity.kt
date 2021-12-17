@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.Toast
 import org.sopt.androidassignment1.ui.view.MainActivity
 import org.sopt.androidassignment1.util.SOPTSharedPreferences
+import org.sopt.androidassignment1.util.ViewExt.shortToast
 import org.sopt.androidassignment1.data.remote.RequestSigninData
 import org.sopt.androidassignment1.data.remote.ResponseSigninData
 import org.sopt.androidassignment1.data.remote.ServiceCreator
@@ -48,14 +49,6 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
-    private fun initClickEvent() {
-
-    }
-
-    private fun isAutoLogin() {
-
-    }
-
     private fun initNetwork() {
         val requestSigninData = RequestSigninData(
             email = binding.idInput.text.toString(),
@@ -70,6 +63,7 @@ class SignInActivity : AppCompatActivity() {
                 response: Response<ResponseSigninData>
             ) {
                 if(response.isSuccessful) {
+                    shortToast("${response.body()?.data?.name}님 반갑습니다")
                     startActivity(Intent(this@SignInActivity, MainActivity::class.java))
                 }
                 else {
