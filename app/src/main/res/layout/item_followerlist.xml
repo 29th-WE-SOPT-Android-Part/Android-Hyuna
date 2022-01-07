@@ -27,7 +27,7 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="18dp"
-        tools:text="이름"
+        tools:text="@string/name"
         app:layout_constraintStart_toEndOf="@+id/profile"
         app:layout_constraintTop_toTopOf="@+id/profile" />
 
@@ -39,7 +39,7 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="15dp"
-        tools:text="자기소개"
+        tools:text="@string/self_info"
         app:layout_constraintStart_toStartOf="@+id/name"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 </androidx.constraintlayout.widget.ConstraintLayout>
